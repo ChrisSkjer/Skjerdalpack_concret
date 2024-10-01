@@ -1,7 +1,8 @@
 
-
-
 def calc_Mcd(fck,b,d):
+    """
+    calculates Mcd for a beam 
+    """
     fcd = 0.85*fck/1.5
     Mcd =  0.275*fcd*b*d*d
     return Mcd
